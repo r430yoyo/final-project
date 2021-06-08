@@ -1,0 +1,27 @@
+.news{
+  .news-title{
+    letter-spacing: 0.8px;
+  }
+  p{
+    letter-spacing: 0.7px;
+    line-height: 1.25;
+    font-size: 0.875em;
+    small{
+      letter-spacing: 0.49px;
+      font-family: BalooTamma2-Regular;
+    }
+  }
+  a{
+    letter-spacing: 0.7px;
+    font-family: BalooTamma2-Bold;
+    font-size: 0.875em;
+  }
+  @media (max-width: 768px) {
+    a{
+      letter-spacing: 0.8px;
+      line-height: 1.75;
+      font-family: BalooTamma2-Bold;
+      font-size: 1em;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.text-bold{
+  font-family: NotoSansCJKtc-Bold;
+  font-weight: bold;
+}
+
+.text-number{
+  font-family: BalooTamma2-SemiBold;
+  font-weight: bold;
+}
+
+
+.product-title {
+  letter-spacing: 3px;
+}
+
+.icon-menu {
+  width: 168px;
+  margin: 0 auto;
+  list-style-type: none;
+  img{
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.product-subimg {
+  border: none;
+  h3{
+    letter-spacing: 1.92px;
+  }
+  p{
+    line-height: 2;
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+  color:#636057;
+}
+
+.bg-hover-warning:hover{
+  background-color: #FF785E;
+  color: #fff;
+}
+
+.bg-hover-info:hover{
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+}
+
+.bg-hover-info:hover i{
+  color: #FF785E;
+}
+
+.tab-menu, .author-title, .program-title, .program {
+  letter-spacing: 2px;
+}
+
+.author-title{
+  font-family: NotoSansCJKtc-Medium;
+  line-height: 1.81;
+}
+
+.sponsor-icon {
+  margin: 0 auto;
+}
+
+.discount{
+  font-family: BalooTamma2-Regular;
+}
+
+.discount-day{
+  font-family: PingFangTC-Regular;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  padding-top: 3px;
+  display: inline-block;
+}
+
+.contact-us {
+  font-size: 0.75rem;
+  .fa-comment-dots{
+    margin-right: 5px;
+  }
+}
+
+.sidebar {
+  height: 800px;
+  top: 6rem;
+  overflow-y: scroll;
+}
+
+.author-project, .author-text, .program-content {
+  letter-spacing: 0.7px;
+  font-family: NotoSansCJKtc-Regular;
+}
+
+.program-money {
+  font-family: BalooTamma2-Bold;
+}
+
+.form-btn {
+  margin: 0 auto;
+}
+
+.program-form select, .program-form input{
+  border: none;
+}
+
+.was-validated .form-control:invalid, .was-validated .form-select:invalid:not([multiple]):not([size]){
+  background-image: none;
+  border: 1px solid #FF785E;
+}
+
+ .was-validated .form-control:valid, .was-validated .form-select:valid:not([multiple]):not([size]){
+  background-image: none;
+}
+
+.invalid-feedback{
+  color: #F48263;
+}
+
+.copyright{
+  letter-spacing: 0.2px;
+}
+
+.to-sponsor{
+  font-family: NotoSansCJKtc-Bold;
+  letter-spacing: 1.6px;
+}

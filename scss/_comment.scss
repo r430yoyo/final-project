@@ -1,0 +1,47 @@
+.comment-title{
+  background: #FEFEFE;
+  letter-spacing: 0.7px;
+  font-size: 0.875rem;
+}
+
+.comment-name  {
+  letter-spacing: 2px;
+  font-family: NotoSansCJKtc-Medium;
+  line-height: 1.81;
+  font-size: 1.25rem;
+}
+@media (max-width: 576px) {
+  .comment-name{
+    letter-spacing: 1.4px;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+}
+
+.comment-text, .recomment p {
+  letter-spacing: 0.7px;
+}
+
+.comment small{
+  letter-spacing: 2px;
+  line-height: 1.25;
+}
+@media (max-width: 576px) {
+  .comment small{
+    letter-spacing: 1.71px;
+    line-height: 1.125;
+    font-size: 0.75rem;
+  }
+}
+
+.recomment small{
+  letter-spacing: 0.61px;
+  line-height: 1.25;
+}
+@media (max-width: 576px) {
+  .recomment small{
+    letter-spacing: 0.53px;
+    line-height: 1.125;
+    font-size: 0.75rem;
+  }
+}

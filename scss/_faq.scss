@@ -1,0 +1,29 @@
+.qa-card{
+  font-size: 14px;
+  .card-header{
+    cursor: pointer;
+    p{
+      letter-spacing: 0.7px;
+      display: inline;
+      background-color: #fff;
+      font-family: BalooTamma2-Bold;
+      padding: 5px;
+      margin-right: 16px;
+    }
+    span{
+      letter-spacing: 0.7px;
+    }
+    .arrow-up{
+      display: none;
+    }
+  }
+  .card-body{
+    letter-spacing: 0.7px;
+    line-height: 1.69;
+  }
+  @media (min-width: 1400px) {
+    .card-body{
+      padding-left: 64px;
+    }
+  }
+}
